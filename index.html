@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SimpleFolderLauncher | 軽量フォルダランチャー</title>
+  <meta name="description" content="Windowsフォルダをそのままランチャーとして使える、軽量・高速なフォルダランチャー" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f1220;
+      --card: #171a2e;
+      --accent: #4f8cff;
+      --text: #e6e9f0;
+      --sub: #aab0d6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1b1f4a, transparent), var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    header {
+      padding: 96px 24px 64px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: clamp(32px, 5vw, 56px);
+      margin-bottom: 16px;
+    }
+    header p {
+      color: var(--sub);
+      font-size: 18px;
+      max-width: 720px;
+      margin: 0 auto 32px;
+    }
+    .buttons {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 14px 26px;
+      border-radius: 999px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all .2s ease;
+    }
+    .btn.primary {
+      background: linear-gradient(135deg, var(--accent), #7aa7ff);
+      color: #0b0e1a;
+    }
+    .btn.secondary {
+      border: 1px solid #2b3160;
+      color: var(--text);
+    }
+    .btn:hover { transform: translateY(-2px); }
+
+    section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0));
+      border: 1px solid #242a55;
+      border-radius: 16px;
+      padding: 28px;
+    }
+    .card h3 { margin-top: 0; }
+    .card p { color: var(--sub); }
+
+    .screenshot {
+      text-align: center;
+    }
+    .screenshot img {
+      max-width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 40px 120px rgba(0,0,0,.5);
+    }
+
+    footer {
+      padding: 48px 24px;
+      text-align: center;
+      color: var(--sub);
+      border-top: 1px solid #22275a;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SimpleFolderLauncher</h1>
+  <p>
+    Windowsフォルダをそのままランチャーに。
+    設定不要、配置するだけの超軽量フォルダランチャー。
+  </p>
+  <div class="buttons">
+    <a class="btn primary" href="https://github.com/takuyash/SimpleFolderLauncher/releases">Download</a>
+    <a class="btn secondary" href="https://github.com/takuyash/SimpleFolderLauncher">GitHub</a>
+  </div>
+</header>
+
+<section class="screenshot">
+  <img src="assets/screenshot.png" alt="SimpleFolderLauncher screenshot" />
+</section>
+
+<section>
+  <h2>Features</h2>
+  <div class="features">
+    <div class="card">
+      <h3>📁 フォルダ＝ランチャー</h3>
+      <p>フォルダ構成がそのままランチャー。Explorer感覚で操作できます。</p>
+    </div>
+    <div class="card">
+      <h3>⚡ 超高速・軽量</h3>
+      <p>常駐しても負荷は最小限。起動も表示も一瞬です。</p>
+    </div>
+    <div class="card">
+      <h3>⌨ キーボード操作</h3>
+      <p>Ctrl + Shift + L で即起動。検索・移動もキーボード中心。</p>
+    </div>
+    <div class="card">
+      <h3>🔧 設定不要</h3>
+      <p>exeを配置してパスを指定するだけ。面倒な設定はありません。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>How to Use</h2>
+  <div class="features">
+    <div class="card"><p>1. exe をダウンロードして任意の場所に配置</p></div>
+    <div class="card"><p>2. ランチャーにしたいフォルダを指定</p></div>
+    <div class="card"><p>3. ショートカットキーで即起動</p></div>
+  </div>
+</section>
+
+<footer>
+  <p>
+    © 2026 SimpleFolderLauncher / MIT License<br>
+    <a href="https://github.com/takuyash/SimpleFolderLauncher">GitHub Repository</a>
+  </p>
+</footer>
+
+</body>
+</html>
