@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docs | SimpleFolderLauncher</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      background: #0f1220;
+      color: #e6e9f0;
+      line-height: 1.8;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+    h1, h2, h3 { margin-top: 48px; }
+    p { color: #aab0d6; }
+    .step {
+      background: #171a2e;
+      border: 1px solid #242a55;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+    code {
+      background: #11142a;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<main>
+  <h1>使い方 / Documentation</h1>
+
+  <h2>クイックスタート</h2>
+
+  <div class="step">
+    <h3>1. ダウンロード</h3>
+    <p>
+      GitHub Releases から最新版をダウンロードします。
+    </p>
+    <p>
+      👉 <a href="https://github.com/takuyash/SimpleFolderLauncher/releases">Releases</a>
+    </p>
+  </div>
+
+  <div class="step">
+    <h3>2. 任意の場所に解凍</h3>
+    <p>
+      任意の場所にダウンロードしたzipファイルを解凍してください。
+      このフォルダがランチャーのルートになります。
+    </p>
+    <img src="assets/setup-folder.png">
+  </div>
+  
+  <div class="step">
+    <h3>3. exe 実行</h3>
+    <p>
+      SimpleFolderLauncher.exe を実行するとタスクトレイに常駐します。
+    </p>
+    <img src="assets/tasktray.png">
+  </div>
+  
+  <div class="step">
+    <h3>4. パスの設定</h3>
+    <p>
+      常駐しているアプリを右クリックし、設定をクリックします。
+      すると、パスの設定画面が表示されるので任意のパスを設定してください。
+      保存すると次回からそのパスがランチャー画面で表示されます。(config.iniが作られ、設定が保存されます。)
+    </p>
+    <img src="assets/setup1.png">
+    <img src="assets/setup2.png">
+    <img src="assets/setup3.png">
+  </div>
+
+  <div class="step">
+    <h3>5. 設定後起動方法</h3>
+    <p>
+       <code>Ctrl + Shift + L</code> で起動できます。
+       またはタスクトレイから開くをクリックでも表示できます。
+    </p>
+    <img src="assets/screenshot.png">
+  </div>
+
+  <h2>操作方法1</h2>
+  <ul>
+    <li>表示されている0～9、A～Zのショートカットで即起動</li>
+  </ul>
+
+  <h2>操作方法2</h2>
+  <ul>
+    <li>↑ ↓：項目移動</li>
+    <li>Enter：実行</li>
+  </ul>
+
+  <h2>その他の機能</h2>
+  <ul>
+    <li>右クリックすることでパスのコピーができます。</li>
+  </ul>
+
+  <h2>注意点</h2>
+  <p>
+    外部キーボード使用時は NumLock を ON にしてください。
+  </p>
+</main>
+
+</body>
+</html>
