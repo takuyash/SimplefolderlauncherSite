@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Information | SimpleFolderLauncher</title>
+  <meta name="description" content="SimpleFolderLauncher のリリース情報・お知らせページ" />
+  <link rel="canonical" href="https://takuyash.github.io/SimplefolderlauncherSite/info.html">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0f1220;
+      --card: #171a2e;
+      --accent: #4f8cff;
+      --text: #e6e9f0;
+      --sub: #aab0d6;
+    }
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1b1f4a, transparent), var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: rgba(15,18,32,.8);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #22275a;
+      z-index: 1000;
+    }
+
+    nav .inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: var(--sub);
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    nav a:hover {
+      color: var(--text);
+    }
+
+    .spacer {
+      height: 64px;
+    }
+
+    header {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 72px 24px 32px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: clamp(28px, 4vw, 42px);
+      margin-bottom: 12px;
+    }
+
+    header p {
+      color: var(--sub);
+      font-size: 16px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    article {
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0));
+      border: 1px solid #242a55;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 32px;
+    }
+
+    article h2 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 20px;
+    }
+
+    .date {
+      font-size: 13px;
+      color: var(--sub);
+      margin-bottom: 16px;
+    }
+
+    article p {
+      color: var(--sub);
+    }
+
+    article a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      padding: 48px 24px;
+      text-align: center;
+      color: var(--sub);
+      border-top: 1px solid #22275a;
+      margin-top: 64px;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <div class="inner">
+    <strong>SimpleFolderLauncher</strong>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="docs.html">Docs</a>
+      <a href="info.html" style="color:#e6e9f0;">Info</a>
+      <a href="https://github.com/takuyash/SimpleFolderLauncher">GitHub</a>
+    </div>
+  </div>
+</nav>
+
+<div class="spacer"></div>
+
+<header>
+  <h1>Information</h1>
+  <p>
+    SimpleFolderLauncher のリリース情報・お知らせを掲載しています。
+  </p>
+</header>
+
+<main id="info-list">
+  <!-- JSで article を生成 -->
+</main>
+
+<script src="js/info-data.js"></script>
+<script src="js/info.js"></script>
+
+<footer>
+  <p>
+    © 2026 SimpleFolderLauncher / MIT License<br>
+    <a href="https://github.com/takuyash/SimpleFolderLauncher">GitHub Repository</a>
+  </p>
+</footer>
+
+</body>
+</html>
