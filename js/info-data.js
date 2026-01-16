@@ -1,6 +1,15 @@
 var infos = [
   {
     date: "2026-01-16",
+    title: "v0.7.0 をリリースしました",
+    body: "・軽微な文言の修正<br>・リリース資材から不要なファイルを削除",
+    link: {
+      url: "https://github.com/takuyash/SimpleFolderLauncher/releases",
+      label: "GitHub Releases を見る"
+    }
+  },
+  {
+    date: "2026-01-16",
     title: "v0.6.0 をリリースしました",
     body: "・Shift 2回連続押下でも起動するように修正<br>・パスが設定されていない時にランチャー画面にメッセージを表示するように修正",
     link: {
