@@ -1,10 +1,19 @@
 var infos = [
   {
     date: "2026-01-18",
+    title: "v0.9.1 をリリースしました",
+    body: "・Shift長押しでも起動してしまう不具合の修正",
+    link: {
+      url: "https://github.com/takuyash/SimpleFolderLauncher/releases",
+      label: "GitHub Releases を見る"
+    }
+  },
+  {
+    date: "2026-01-18",
     title: "v0.9.0 をリリースしました",
     body: "・検索機能の追加",
     link: {
-      url: "https://github.com/takuyash/SimpleFolderLauncher/releases",
+      url: "https://github.com/takuyash/SimpleFolderLauncher/releases"
       label: "GitHub Releases を見る"
     }
   },
