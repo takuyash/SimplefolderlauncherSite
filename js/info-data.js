@@ -1,5 +1,14 @@
 var infos = [
   {
+    date: "2026-01-18",
+    title: "v0.9.0 をリリースしました",
+    body: "・検索機能の追加",
+    link: {
+      url: "https://github.com/takuyash/SimpleFolderLauncher/releases",
+      label: "GitHub Releases を見る"
+    }
+  },
+  {
     date: "2026-01-17",
     title: "v0.8.0 をリリースしました",
     body: "・設定表示時に新しいバージョンがないかをチェックするように修正<br>・アプリを起動していた状態で、Shift + 文字 で大文字入力ができなくなる不具合の修正",
