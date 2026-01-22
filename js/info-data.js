@@ -1,5 +1,10 @@
 var infos = [
   {
+    date: "2026-01-22",
+    title: "祝 200 Unique Cloners 達成",
+    body: "この度クローン数が200 Unique Cloners を達成しましたのでお知らせします。<br>ソースを公開して1ヵ月経たないうちに多くの方に見ていただけて大変嬉しく思います。<br>今後もさらに改善を続けていきますのでよろしくお願いいたします。"
+  },
+  {
     date: "2026-01-18",
     title: "v0.9.1 をリリースしました",
     body: "・Shift長押しでも起動してしまう不具合の修正",
@@ -13,7 +18,7 @@ var infos = [
     title: "v0.9.0 をリリースしました",
     body: "・検索機能の追加",
     link: {
-      url: "https://github.com/takuyash/SimpleFolderLauncher/releases"
+      url: "https://github.com/takuyash/SimpleFolderLauncher/releases",
       label: "GitHub Releases を見る"
     }
   },
