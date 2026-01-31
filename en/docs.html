@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation | SimpleFolderLauncher</title>
+  <link rel="canonical" href="https://takuyash.github.io/SimplefolderlauncherSite/en/docs.html">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      background: #0f1220;
+      color: #e6e9f0;
+      line-height: 1.8;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 120px 24px 80px;
+    }
+    h1, h2, h3 { margin-top: 48px; }
+    p { color: #aab0d6; }
+    .step {
+      background: #171a2e;
+      border: 1px solid #242a55;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+    code {
+      background: #11142a;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+<nav style="position:fixed;top:0;left:0;right:0;background:rgba(15,18,32,.8);backdrop-filter:blur(10px);border-bottom:1px solid #22275a;z-index:1000;">
+  <div style="max-width:1100px;margin:0 auto;padding:12px 24px;display:flex;justify-content:space-between;align-items:center;">
+    <strong>SimpleFolderLauncher</strong>
+    <div style="display:flex;gap:20px;align-items:center;">
+      <a href="index.html" style="color:#aab0d6;text-decoration:none;">Home</a>
+      <a href="docs.html" style="color:#e6e9f0;text-decoration:none;">Docs</a>
+      <a href="info.html" style="color:#aab0d6;text-decoration:none;">Info</a>
+      <a href="https://github.com/takuyash/SimpleFolderLauncher" style="color:#aab0d6;text-decoration:none;">GitHub</a>
+      <div style="font-size:12px;border:1px solid #2b3160;padding:2px 8px;border-radius:4px;">
+        <a href="../docs.html" style="color:#aab0d6;text-decoration:none;">JP</a> | <span style="color:#fff;font-weight:bold;">EN</span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <h1>Documentation</h1>
+
+  <h2>Quick Start</h2>
+
+  <div class="step">
+    <h3>1. Download</h3>
+    <p>Download the latest version from GitHub Releases.</p>
+    <p>👉 <a href="https://github.com/takuyash/SimpleFolderLauncher/releases">Releases</a></p>
+  </div>
+
+  <div class="step">
+    <h3>2. Extract</h3>
+    <p>Extract the downloaded zip file to any location. This folder will act as the root for your launcher shortcuts.</p>
+    <img src="../assets/setup-folder.png">
+  </div>
+  
+  <div class="step">
+    <h3>3. Run the EXE</h3>
+    <p>Run <code>SimpleFolderLauncher.exe</code>. It will reside in your system tray.</p>
+    <img src="../assets/tasktray.png">
+  </div>
+  
+  <div class="step">
+    <h3>4. Set Path</h3>
+    <p>
+      Right-click the app icon in the tray and click "Settings".<br>
+      Specify the path to the folder you want to display in the launcher.<br>
+      Once saved, this path will be displayed whenever you open the launcher. (Settings are saved in <code>config.ini</code>).<br>
+      *You can also switch the language (JP/EN) and change font sizes here.
+    </p>
+    <img src="../assets/setup1_en.png">
+    <img src="../assets/setup2_en.png">
+    <img src="../assets/setup3.png">
+  </div>
+
+  <div class="step">
+    <h3>5. Launching</h3>
+    <p>
+       Use <code>Double Shift</code> or <code>Ctrl + Shift + I</code> to open.<br>
+       You can also open it by clicking "Open" from the tray icon menu.
+    </p>
+    <img src="../assets/screenshot.png">
+  </div>
+
+  <h2>Controls (Option 1)</h2>
+  <ul>
+    <li>Press 0-9 or A-Z shortcuts displayed on screen for instant launch.</li>
+  </ul>
+
+  <h2>Controls (Option 2)</h2>
+  <ul>
+    <li>↑ ↓ keys: Navigate items</li>
+    <li>Enter: Execute/Open</li>
+  </ul>
+
+  <h2>Keyword Search</h2>
+  <ul>
+    <li>Filter through items instantly using keyword search.</li>
+  </ul>
+  <img src="../assets/search.png">
+
+  <h2>Other Features</h2>
+  <ul>
+    <li>Right-click an item to copy its path.</li>
+    <li>Press <code>Esc</code> to close the launcher.</li>
+    <li>Adjust font size in settings.</li>
+  </ul>
+  
+  <h2>How to Update</h2>
+  <p>To update, download the new version and overwrite the files in your existing folder.</p>
+  <ul>
+    <li>1. Close SimpleFolderLauncher.</li>
+    <li>2. Download the new zip file.</li>
+    <li>3. Overwrite files in the existing folder.</li>
+    <li>4. Restart the app.</li>
+  </ul>
+
+  <h2>Misc</h2>
+  <ul>
+    <li>We recommend adding the app to your Windows Startup to ensure it's always available.</li>
+    <li>If using an external keyboard, ensure NumLock is ON for number pad input.</li>
+    <li>Pressing Shift 5 times rapidly may trigger the Windows Sticky Keys dialog. This is a standard Windows feature, not a bug in the app.</li>
+  </ul>
+
+  <div style="margin-top: 64px; text-align: center;">
+    <a href="index.html" style="display: inline-block; padding: 12px 24px; border-radius: 999px; border: 1px solid #242a55; color: #e6e9f0; text-decoration: none;">
+      ← Back to Home
+    </a>
+  </div>
+</main>
+
+</body>
+</html>
