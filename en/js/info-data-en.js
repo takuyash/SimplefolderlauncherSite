@@ -1,5 +1,14 @@
 var infos = [
   {
+    date: "2026-02-01",
+    title: "v0.9.3 Released",
+    body: "Multilingual (English) support.",
+    link: {
+      url: "https://github.com/takuyash/SimpleFolderLauncher/releases",
+      label: "View GitHub Releases"
+    }
+  },
+  {
     date: "2026-01-31",
     title: "v0.9.2 Released",
     body: "・Added font size adjustment feature<br>・Added validation for folder settings<br>・Fixed bugs on initial startup<br>Fixed to prevent closing with Double Shift or Ctrl+Shift+I when the launcher is already open (to avoid triggering Sticky Keys).",

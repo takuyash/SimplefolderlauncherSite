@@ -1,5 +1,14 @@
 var infos = [
   {
+    date: "2026-02-01",
+    title: "v0.9.3 をリリースしました",
+    body: "・多言語（英語）対応",
+    link: {
+      url: "https://github.com/takuyash/SimpleFolderLauncher/releases",
+      label: "GitHub Releases を見る"
+    }
+  },
+  {
     date: "2026-01-31",
     title: "v0.9.2 をリリースしました",
     body: "・文字サイズ変更機能を追加<br>・フォルダ設定にチェック処理を追加<br>・初回起動時の不具合の修正<br>ランチャーを開いている状態でshift 2回連続もしくは、ctrl+shift+iで閉じないように修正(固定キー機能の表示を助長させないため)",
