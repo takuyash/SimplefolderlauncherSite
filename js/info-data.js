@@ -1,5 +1,14 @@
 var infos = [
   {
+    date: "2026-02-07",
+    title: "v0.9.4 をリリースしました",
+    body: "・ホットキーの起動をオンオフで設定できるように設定機能の追加<br>・ホットキーの種類変更、連打回数の変更機能を追加<br>・全体的なデザインをダークテーマに変更",
+    link: {
+      url: "https://github.com/takuyash/SimpleFolderLauncher/releases",
+      label: "GitHub Releases を見る"
+    }
+  },
+  {
     date: "2026-02-01",
     title: "v0.9.3 をリリースしました",
     body: "・多言語（英語）対応",
