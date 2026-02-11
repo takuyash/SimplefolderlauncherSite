@@ -1,5 +1,14 @@
 var infos = [
   {
+    date: "2026-02-08",
+    title: "v0.9.5 has been released",
+    body: "• Changed the method of obtaining icons",
+    link: {
+      url: "https://github.com/takuyash/SimpleFolderLauncher/releases",
+      label: "View GitHub Releases"
+    }
+  },
+  {
     date: "2026-02-07",
     title: "v0.9.4 Released",
     body: "・Added a setting to enable or disable hotkey activation<br>・Added the ability to change the hotkey type and the number of required key presses<br>・Updated the overall design to a dark theme",
