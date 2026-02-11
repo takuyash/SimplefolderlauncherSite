@@ -1,6 +1,6 @@
 var infos = [
   {
-    date: "2026-02-08",
+    date: "2026-02-11",
     title: "v0.9.5 has been released",
     body: "• Changed the method of obtaining icons",
     link: {
