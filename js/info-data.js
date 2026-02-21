@@ -1,5 +1,14 @@
 var infos = [
   {
+    date: "2026-02-21",
+    title: "v0.9.6 をリリースしました",
+    body: "・ランチャー画面を開いている状態でカーソルが他のアプリに移ったら画面を閉じるように修正<br>・ランチャー画面以外が開かれているときは、ランチャー画面を起動できないように修正",
+    link: {
+      url: "https://github.com/takuyash/SimpleFolderLauncher/releases",
+      label: "GitHub Releases を見る"
+    }
+  },
+  {
     date: "2026-02-11",
     title: "v0.9.5 をリリースしました",
     body: "・アイコンの取得方法の変更",

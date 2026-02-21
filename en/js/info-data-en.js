@@ -1,5 +1,14 @@
 var infos = [
   {
+    date: "2026-02-21",
+    title: "v0.9.6 has been released",
+    body: "・ Fixed the launcher screen to close if the cursor is moved to another app while the launcher screen is open.<br>・Fixed the launcher screen to not launch if any other app is open.",
+    link: {
+      url: "https://github.com/takuyash/SimpleFolderLauncher/releases",
+      label: "View GitHub Releases"
+    }
+  },
+  {
     date: "2026-02-11",
     title: "v0.9.5 has been released",
     body: "• Changed the method of obtaining icons",
